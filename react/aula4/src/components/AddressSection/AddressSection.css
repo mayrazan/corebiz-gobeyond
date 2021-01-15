@@ -1,0 +1,36 @@
+.address {
+  color: #fff;
+  font-size: 13px;
+}
+
+.address h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.address h3::after {
+  display: block;
+  height: 5px;
+  width: 45px;
+  background-color: #fff;
+  content: "";
+  margin-top: 16px;
+}
+
+.address .link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 650px) {
+  .address {
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+    margin-left: 16px;
+  }
+}
